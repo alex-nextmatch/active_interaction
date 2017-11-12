@@ -303,6 +303,12 @@ autolink(:a, :b)
 => { a: link(:a), b: link(:b) }
 ```
 
+# [3.6.1][] (2017-11-12)
+
+## Fixed
+
+- [#429][] Pass details on translated detailed errors.
+
 # [3.6.0][] (2017-10-20)
 
 ## Added
@@ -1028,7 +1034,8 @@ Example.run
 
 - Initial release.
 
-  [4.0.0]: https://github.com/orgsync/active_interaction/compare/v3.6.0...v4.0.0
+  [4.0.0]: https://github.com/orgsync/active_interaction/compare/v3.6.1...v4.0.0
+  [3.6.1]: https://github.com/orgsync/active_interaction/compare/v3.6.0...v3.6.1
   [3.6.0]: https://github.com/orgsync/active_interaction/compare/v3.5.3...v3.6.0
   [3.5.3]: https://github.com/orgsync/active_interaction/compare/v3.5.2...v3.5.3
   [3.5.2]: https://github.com/orgsync/active_interaction/compare/v3.5.1...v3.5.2
@@ -1217,3 +1224,4 @@ Example.run
   [#420]: https://github.com/orgsync/active_interaction/pull/420
   [#422]: https://github.com/orgsync/active_interaction/pull/422
   [#425]: https://github.com/orgsync/active_interaction/pull/425
+  [#429]: https://github.com/orgsync/active_interaction/pull/429
