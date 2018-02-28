@@ -1371,6 +1371,7 @@ hsilgne:
       integer: regetni
       interface: ecafretni
       object: tcejbo
+      record: droce
       string: gnirts
       symbol: lobmys
       time: emit
